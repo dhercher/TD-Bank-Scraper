@@ -5,11 +5,17 @@ This is a python data scraper that allows you to scrape TD Bank data from a sing
 
 # To use this module, simply:
 ## This Will Login Automatically
+```python
 td = TDBank(USERNAME, PASSWORD)
+```
 
 ## You Can also use 
-* td = TDBank()
-* td.login(USERNAME, PASSWORD)
+```python
+td = TDBank()
+td.login(USERNAME, PASSWORD)
+```
 
 ## Auto Load 30 days of history from account
-* df = td.load_history()
+```python
+df = td.load_history()
+```
